@@ -1,0 +1,59 @@
+{
+  "name": "injectjs",
+  "version": "0.0.1",
+  "description": "lightweight, small, high level dependency injector with support for multiple object lifetimes",
+  "main": "inject.js",
+  "scripts": {
+    "test": "karma karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nstraub/injectjs.git"
+  },
+  "keywords": [
+    "dependency",
+    "injector",
+    "lightweight",
+    "inject",
+    "lifetime",
+    "singleton",
+    "transient",
+    "parent"
+  ],
+  "author": "Nicolas Straub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nstraub/injectjs/issues"
+  },
+  "homepage": "https://github.com/nstraub/injectjs",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-ramda": "^1.4.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "imports-loader": "^0.7.1",
+    "inject-js": "^0.5.4",
+    "jasmine-core": "^2.99.1",
+    "jasmine-sinon": "^0.4.0",
+    "karma": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^2.0.9",
+    "phantomjs-polyfill-array-from": "^1.0.1",
+    "phantomjs-polyfill-object-assign": "0.0.2",
+    "phantomjs-prebuilt": "^2.1.16",
+    "sinon": "^4.3.0",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
