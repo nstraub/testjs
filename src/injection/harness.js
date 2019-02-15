@@ -1,3 +1,8 @@
-import injector from '../injector';
+import inject from './inject';
 
-export default injector.harness;
+
+export default function (stores, fn, ...deps) {
+    return function () {
+        return inject(stores, fn, ...deps)();
+    };
+}

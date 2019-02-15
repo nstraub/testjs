@@ -1,14 +1,17 @@
 {
-  "name": "injectjs",
-  "version": "0.0.1",
-  "description": "lightweight, small, high level dependency injector with support for multiple object lifetimes",
-  "main": "inject.js",
+  "name": "testable-js",
+  "version": "0.0.18",
+  "description": "framework to simplify faking and sharing objects within unit tests",
+  "main": "dist/test.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "karma karma.conf.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nstraub/injectjs.git"
+    "url": "https://github.com/nstraub/testjs.git"
   },
   "keywords": [
     "dependency",
@@ -25,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/nstraub/injectjs/issues"
   },
-  "homepage": "https://github.com/nstraub/injectjs",
+  "homepage": "https://github.com/nstraub/testjs",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -37,7 +40,6 @@
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.17.0",
     "imports-loader": "^0.7.1",
-    "inject-js": "^0.5.4",
     "jasmine-core": "^2.99.1",
     "jasmine-sinon": "^0.4.0",
     "karma": "^2.0.0",
@@ -50,10 +52,10 @@
     "phantomjs-polyfill-array-from": "^1.0.1",
     "phantomjs-polyfill-object-assign": "0.0.2",
     "phantomjs-prebuilt": "^2.1.16",
-    "sinon": "^4.3.0",
+    "ramda": "^0.25.0",
     "webpack": "^3.11.0"
   },
   "dependencies": {
-    "lodash": "^4.17.5"
+    "sinon": "^7.2.3"
   }
 }

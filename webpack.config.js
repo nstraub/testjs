@@ -1,10 +1,10 @@
 module.exports = {
     entry: {
-        main: './src/main.js'
+        main: './src/index.js'
     },
     output: {
         libraryTarget: 'umd',
-        filename: 'build/bundle.js'
+        filename: 'dist/test.js'
     },
     module: {
         rules: [

@@ -34,14 +34,8 @@ module.exports = function (config) {
             },
             webpack: {
                 devtool: 'inline-source-map',
-                resolve: {
-                    alias: {
-                        sinon: 'sinon/pkg/sinon'
-                    }
-                },
                 module: {
                     rules: [
-                        { test: /sinon.*\.js$/,   loader: 'imports-loader?define=>false,require=>false'  },
                         {
                             test: /\.js$/,
                             loader: 'babel-loader',
